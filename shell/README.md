@@ -1,0 +1,1 @@
+Shell betiklerimi barındaracağım depo.
