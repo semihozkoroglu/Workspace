@@ -25,9 +25,9 @@
 		</div>
 	</div>
 	<?php
-		echo !($connector = mysql_connect('localhost','root','semihsemih')) ? 'Can\'t find ' . mysql_error() : 'databate succesfully connect';
+		echo !($connector = mysql_connect('localhost','root','semihsemih'));
 		echo '<br>';
-		echo !(mysql_select_db('user', $connector)) ? 'Can\'t find ' . mysql_error() : 'database select succesfully ';
+		echo !(mysql_select_db('user', $connector));
 		echo '<br>';
 		$ad = $_POST['ad'];
 		$no = $_POST['no'];
