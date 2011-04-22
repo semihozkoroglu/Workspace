@@ -1,0 +1,94 @@
+
+/*---------------------------------------------------------------------------------*/
+/* RESET */
+/*---------------------------------------------------------------------------------*/
+html {color:#555;background:#F7F7F7;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0 ;}
+body { background:#F7F7F7;}
+ul,ol { list-style:none; }
+a img{ border:0 }
+q:before,q:after { content:'' }
+table { border-collapse:collapse; border-spacing:0 }
+
+/*---------------------------------------------------------------------------------*/
+/* GENERAL */
+/*---------------------------------------------------------------------------------*/
+a { text-decoration:none; color:#005E8F; }
+a:hover {text-decoration:underline; }
+:focus { outline:0; }
+h1 { font-size:32px; }
+h2 { font-size:24px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5,h6 { font-size:12px; }
+h1,h2,h3,h4,h5,h6{line-height:1.25;font-family:Helvetica,Arial,sans-serif;}
+pre,code,kbd,samp,tt {font:13px/1.385 "Courier New",Monospace,serif; }
+body,input,button,select,textarea{font:13px "Lucida Sans Unicode","Lucida Grande","Trebuchet MS",Arial,sans-serif; }
+body { line-height:1.615;background:#FFF;min-width:980px;}
+
+
+/*---------------------------------------------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------------------------------------------*/
+#header { height: 95px; min-width: 960px; background: #dcdcdc url(images/bg_gray.png) repeat-x;}
+
+#header .logo a { display: block; width: 280px; height: 88px; float: left;line-height:88px;color:#222; text-decoration:none;font-size:36px;font-weight:normal;}
+#header .logo a:hover{}
+#header #image-logo a{text-indent:-5555em;overflow:hidden;background:url(images/logo.png) no-repeat;}
+
+#searchform {float: right;height: 45px;padding-top: 8px;}
+#searchform #s{background: url(buton.png) no-repeat;border: 0;margin-right: 6px;width: 148px;height:14px;padding:5px 8px;color: #777;float: left;font-family:Tahoma, Arail, Sans-serif;font-size:11px;}
+#searchform #searchsubmit{margin-left:180px;float: left;width:100px;height:40px;cursor:pointer;text-indent:-5555em;line-height:100;overflow:hidden;background:url(buton.png) no-repeat;border:0;}
+#searchform #searchsubmit:hover{background-position:0 -38px;}
+/*
+ * eklenenler
+----------------------------------------------------
+*/
+#renklen{margin-left: 211 ;float: left; color: #185a68;}
+#kay{margin-left: 250 ;float: left;min-width: 700px; }
+#headur { height: 70px; min-width: 960px; background: #eae7e7 url(images/bg_gray.png) repeat-x;}
+#searchsubmit { background-image: url(buton.png); }
+#left{margin-left: 195;float: left;min-width: 480px; }
+#right{margin: 20 ;float: right;min-width: 480px; }
+
+/*
+------------------------------------------------
+*/
+
+#topnav ul li { float: left; position: relative; z-index:900;}
+#topnav ul li a { font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Arial,sans-serif; display: block; line-height: 34px; padding: 0 9px; font-size: 13px; color: #555;text-shadow:0 1px 0 #EEE;}
+#topnav ul li a{text-decoration:none;}
+#topnav ul li.current_page_ancestor,
+#topnav ul li.current_page_parent,
+#topnav ul li.current_page_item{background:#C6C6C6;padding:1px 1px 0;border-bottom:1px solid #F0EFEF;
+-moz-border-radius: 3px 3px 0 0;
+-khtml-border-top-left-radius: 3px;
+-khtml-border-top-right-radius: 3px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;}
+#topnav ul li.current_page_ancestor a,
+#topnav ul li.current_page_parent a,
+#topnav ul li.current_page_item a{border:1px solid #FFF;border-width:1px 1px 0;background:#F0EFEF;color:#444;
+-moz-border-radius: 3px 3px 0 0;
+-khtml-border-top-left-radius: 3px;
+-khtml-border-top-right-radius: 3px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;}
+#topnav ul li a:hover { text-decoration:none; color:#222;}
+#topnav ul ul{display:none;position:absolute;top:34px;left:0;width:120px !important;background:#D6D6D6 !important;z-index:910;}
+#topnav ul ul ul{left:100%;top:0;}
+#topnav ul ul li{display:list-item;float:none;border:0 !important;background:none !important}
+#topnav ul ul li a{border:0 !important;}
+#topnav ul li.current_page_ancestor ul,
+#topnav ul li.current_page_parent ul,
+#topnav ul li.current_page_item ul{border:1px solid #C6C6C6;border-width:0 1px 1px;background:none !important;}
+#topnav ul li.current_page_ancestor ul ul,
+#topnav ul li.current_page_parent ul ul,
+#topnav ul li.current_page_item ul ul{border-top:1px solid #C6C6C6;}
+#topnav ul li.current_page_ancestor ul li,
+#topnav ul li.current_page_parent ul li,
+#topnav ul li.current_page_item ul li{border-left:1px solid #FFF !important;border-right:1px solid #FFF !important;}
