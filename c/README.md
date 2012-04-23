@@ -1,1 +1,0 @@
-C çalışmalarımı burada bulursunuz
